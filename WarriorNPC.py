@@ -2,9 +2,6 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import PhotoImage
 import random
-import cgitb
-
-cgitb.enable()
 
 #Establish Random Array Pools
 e = ['Fire', 'Water', 'Earth', 'Wind', 'Thunder', 'Light', 'Dark', 'No Element'] #Element
