@@ -10,7 +10,7 @@ c = ['Pink', 'Red', 'Burnt Orange', 'Orange', 'Amber', 'Yellow', 'Lime', 'Green'
 h = ['Very Low','Low', 'Low-Medium','Medium','Medium-High','High', 'Very High'] #Energy Tier
 f = ['Factionless', 'Calix', 'Virgula', 'Gladius', 'Nummus'] #Faction
 i = ['Idiot', 'Uneducated', 'Below-Average', 'Average', 'Above-Average', 'Genius', 'Sage'] #Intelligence
-p = ['Rugged', 'Lonely', 'Brave', 'Steadfast', 'Unruly', 'Daring', 'Obedient', 'Relaxed', 'Prankster', 'Careless', 'Timid', 'Hasty', 'Serious', 'Jolly', 'Naive', 'Humble', 'Mild', 'Quiet', 'Bashful', 'Reckless', 'Calm', 'Kind', 'Sassy', 'Carefree', 'Quirky']#Personality
+p = ['Rugged', 'Lonely', 'Brave', 'Steadfast', 'Unruly', 'Daring', 'Obedient', 'Relaxed', 'Prankster', 'Careless', 'Timid', 'Hasty', 'Serious', 'Jolly', 'Naive', 'Humble', 'Mild', 'Quiet', 'Bashful', 'Reckless', 'Calm', 'Kind', 'Workaholic', 'Narcissistic','Sassy', 'Carefree','Pencil-Pusher', 'Quirky', 'Slob']#Personality
 d = ['Dismemberment', 'Cutting', 'Scratching', 'Bleedout', 'Hemorrhage', 'Disease', 'Poison', 'Multilation', 'Crushing', 'Burning', 'Freezing', 'Exploding', 'Age', 'Instant Death', 'Starvation', 'Dehydration', 'Trauma', 'Electrocution', 'Supernatural', 'Spiritual', 'Asphyxiation', 'Drowning', 'Suicide']#Method of Death
 v = ['Chastity', 'Temperance', 'Charity', 'Diligence', 'Patience', 'Kindness', 'Humility']#Virtue
 s = ['Lust', 'Gluttony', 'Greed', 'Sloth', 'Wrath', 'Envy', 'Pride']#Vice
@@ -162,9 +162,6 @@ lockS = tk.Checkbutton(win, text="Lock", offvalue=0, onvalue=1, variable=Slock)
 lockS.deselect()
 lockS.grid(column=6, row=5, sticky='W')
 
-#Create Variable for Photo
-#loadbutton = PhotoImage(file = r'C:\Users\Bryson Keal\Desktop\Python\pngegg.png')
-#xbutton=PhotoImage(file = r'C:\Users\Bryson Keal\Desktop\Python\x-icon-vector-7.png')
 def Selection():
     #Set Variables
     if Elock.get() == 0:
